@@ -288,5 +288,12 @@ PRODUCT_PACKAGES += \
 
 include vendor/everest/config/branding.mk
 
+# Superior-specific init rc file
+PRODUCT_COPY_FILES += \
+    vendor/everest/prebuilt/common/etc/init/init.everest-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.everest-system_ext.rc
+
+# Include Superior_props
+$(call inherit-product, vendor/everest/config/everest_props.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/everest/config/partner_gms.mk
