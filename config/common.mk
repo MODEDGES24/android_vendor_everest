@@ -100,6 +100,10 @@ endif
 PRODUCT_PACKAGES += \
     EverestWallpaperStub
 
+# Charger
+PRODUCT_PACKAGES += \
+    product_charger_res_images
+
 # Config
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
