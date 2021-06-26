@@ -141,6 +141,10 @@ endif
 PRODUCT_PACKAGES += \
     EverestWallpaperStub
 
+# Hide nav Overlays
+PRODUCT_PACKAGES += \
+    NavigationBarNoHintOverlay
+
 #Themes OVerlay
 include packages/overlays/Themes/themes.mk
 
