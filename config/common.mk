@@ -212,6 +212,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/everest/overlay/no-rro
 
 PRODUCT_PACKAGES += \
+    CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
     NetworkStackOverlay \
     ThemedIconsOverlay
