@@ -85,6 +85,9 @@ SYSTEMUI_OPTIMIZE_JAVA ?= true
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# Bootanimation
+include vendor/everest/config/bootanimation.mk
+
 # Build Manifest
 PRODUCT_PACKAGES += \
     build-manifest
