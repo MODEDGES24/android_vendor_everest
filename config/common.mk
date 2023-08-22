@@ -136,6 +136,9 @@ endif
 PRODUCT_PACKAGES += \
     EverestWallpaperStub
 
+#Themes OVerlay
+include packages/overlays/Themes/themes.mk
+
 # Certification
 $(call inherit-product-if-exists, vendor/certification/config.mk)
 
