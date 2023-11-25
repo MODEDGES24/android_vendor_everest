@@ -295,5 +295,8 @@ PRODUCT_COPY_FILES += \
 # Include Superior_props
 $(call inherit-product, vendor/everest/config/everest_props.mk)
 
+#pixel fw
+$(call inherit-product-if-exists, vendor/pixel-framework/config.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/everest/config/partner_gms.mk
