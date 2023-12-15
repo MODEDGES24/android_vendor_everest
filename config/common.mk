@@ -136,6 +136,9 @@ endif
 PRODUCT_PACKAGES += \
     EverestWallpaperStub
 
+# Certification
+$(call inherit-product-if-exists, vendor/certification/config.mk)
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images \
