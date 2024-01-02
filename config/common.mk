@@ -273,6 +273,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/everest/overlay/common \
     vendor/everest/overlay/no-rro
 
+# Cloned app exemption
+PRODUCT_COPY_FILES += \
+    vendor/everest/prebuilt/common/etc/sysconfig/preinstalled-packages-platform-everest-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-everest-product.xml
+
 PRODUCT_PACKAGES += \
     CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
