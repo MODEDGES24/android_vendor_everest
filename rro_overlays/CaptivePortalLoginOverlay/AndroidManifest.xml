@@ -19,5 +19,6 @@
     package="com.android.captiveportallogin.overlay">
     <overlay android:isStatic="true" android:priority="0" android:targetName="CaptivePortalLoginConfig" android:targetPackage="com.android.captiveportallogin"/>
 
-    <application android:hasCode="false" android:label="CaptivePortalLoginOverlay"/>
+    <application android:hasCode="false"
+	android:allowBackup="false" android:label="CaptivePortalLoginOverlay"/>
 </manifest>
