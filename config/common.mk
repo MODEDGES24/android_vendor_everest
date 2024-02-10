@@ -278,15 +278,11 @@ PRODUCT_COPY_FILES += \
     vendor/everest/prebuilt/common/etc/sysconfig/preinstalled-packages-platform-everest-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-everest-product.xml
 
 PRODUCT_PACKAGES += \
-    CustomFontPixelLauncherOverlay \
-    DocumentsUIOverlay \
-    NetworkStackOverlay \
-    ThemedIconsOverlay
-
-PRODUCT_PACKAGES += \
     GameSpace
 
 include vendor/everest/config/branding.mk
+# rro_overlays
+$(call inherit-product, vendor/everest/config/rro_overlays.mk)
 
 # Superior-specific init rc file
 PRODUCT_COPY_FILES += \
