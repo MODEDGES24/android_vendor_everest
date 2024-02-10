@@ -6,9 +6,9 @@ PRODUCT_PACKAGES += \
     PixelLauncherCustomOverlay \
     PixelDocumentsUIGoogleOverlay \
     PixelSetupWizardOverlay \
-    PixelFwOverlayPixys \
-    SettingsGoogleOverlayPixys \
-    SystemUIGoogleOverlayPixys \
+    PixelFwOverlayEverest \
+    SettingsGoogleOverlayEverest \
+    SystemUIGoogleOverlayEverest \
     CaptivePortalLoginOverlay \
     CellBroadcastReceiverOverlay \
     CellBroadcastServiceOverlay \

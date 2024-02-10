@@ -10,5 +10,6 @@
         android:isStatic="true"
         android:priority="100"
         android:targetPackage="com.android.networkstack"
-        android:targetName="NetworkStackConfig" />
+        android:targetName="NetworkStackConfig"
+        android:allowBackup="false" />
 </manifest>

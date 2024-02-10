@@ -10,5 +10,6 @@
         android:isStatic="true"
         android:priority="100"
         android:targetPackage="com.android.documentsui"
-        android:targetName="DocumentsUICustomization" />
+        android:targetName="DocumentsUICustomization"
+        android:allowBackup="false" />
 </manifest>
